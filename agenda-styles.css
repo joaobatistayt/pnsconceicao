@@ -1,0 +1,43 @@
+.bloco-titulo-agenda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-agenda h2 {
+    font-size: 35px;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    font-family: "Inter", serif;
+}
+
+
+
+.bloco-agenda-comunidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco-agenda-comunidades img {
+    width: 500px;
+    height: auto;
+    margin-bottom: 20px;
+    border: solid blue;
+    padding: 5px;
+}
+
+.bloco-agenda-matriz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco-agenda-matriz img {
+    width: 650px;
+    height: auto;
+    margin-bottom: 20px;
+    border: solid blue;
+    padding: 5px;
+}

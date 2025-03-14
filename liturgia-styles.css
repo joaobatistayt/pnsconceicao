@@ -1,0 +1,34 @@
+.liturgia-dominical {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo-liturgia-dominical {
+    text-align: center;
+}
+
+.titulo-leituras {
+    justify-content: center;
+    text-align: center;
+}
+
+.primeira-leitura, .segunda-leitura, .salmo-responsorial, .evangelho {
+    width: 800px;
+    text-align: justify;
+}
+
+.primeira-leitura, .segunda-leitura, .salmo-responsorial, .evangelho p {
+    font-size: 20px;
+}
+
+.primeira-leitura, .segunda-leitura, .salmo-responsorial, .evangelho h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.antifona-evangelho {
+    text-align: left;
+    width: 400px;
+}

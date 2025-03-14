@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    width: auto;
+    height: 100vh;
+}
+
+.cont-maior {
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+
+
+
+.corpo-container {
+    display: grid;
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: 1fr;
+    background-color: aquamarine;
+}
+
+.item {
+    display: grid;
+}  
+
+.barra-navegacao {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: red solid 2px;
+}
+
+.rodape-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 90px;
+    background-color: green;
+}

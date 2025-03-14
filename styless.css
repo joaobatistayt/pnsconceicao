@@ -1,0 +1,329 @@
+body {
+    margin: 0;
+    background-color:  rgb(213, 209, 164);
+}
+
+.barra-navegacao {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 100%;
+    /*
+    border-color: black;
+    border: solid;
+    */
+}
+
+.barra-navegacao > ul {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    margin: 5px;
+    padding: 8px 0px;
+    align-items: center;
+    background-color: #0039A1;
+    height: 90px;
+    font-family: "Inter", serif;
+}
+
+.logo-cabecalho img {
+    width: 90px;
+    height: auto;
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    margin: 3px;
+}
+
+
+
+
+
+.titulo-pag-inicial {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /*
+    border-color: black;
+    border: solid
+    */
+    margin-top: 2px;
+    font-size: 18px;
+}
+
+.titulo-pag-inicial h1 {
+    margin: 2px 5px 0px;
+    padding: 3px 0px;
+    text-align: center;
+    background-color: #AEAEAE;
+    width: 100%;
+    color: #0039A1;
+    font-family: "Inter", sans-serif;
+    text-shadow: 4px 4px 2px rgba(241, 217, 0, 0.7);
+    font-weight: 700;
+}
+
+
+
+
+.imagens-inicio {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    /*
+    border: solid;
+    border-color: black;
+    */
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+.foto-matriz img {
+    width: auto;
+    height: 67vh;
+    border-radius: 10%;
+    border: solid rgb(144, 61, 10);
+    padding: 5px;
+}
+
+.foto-matriz figcaption {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Inter", serif;
+}
+
+.foto-padroeiros img {
+    width: auto;
+    height: 300px;
+    border-radius: 10%;
+    border: solid blue;
+    padding: 5px;
+}
+
+.foto-padroeiros figcaption {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Inter", serif;
+}
+
+
+
+
+.ata-instalacao-paroquia {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    /*
+    border: solid;
+    border-color: black;
+    */
+}
+
+.titulo-ata-instalacao {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+.texto-ata-instalacao {
+    font-size: 22px;
+    max-width: 1050px;
+    height: auto;
+    text-align: center;
+    
+}
+
+.ata-instalacao-paroquia p {
+    text-align: justify;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+
+
+/* 
+.item details {
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.item summary {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fonte-details p * {
+    font-size: 17px;
+    border: solid white;
+    padding: 2px;
+    background-color: white;
+    color: black;
+} */
+/* 
+.item summary::marker, Para navegadores modernos
+summary::-webkit-details-marker { Para Safari
+    display: none;
+  }
+  
+.item summary::after {
+    content: "⮞";
+    transition: transform 0.3s;
+}
+  
+.item details[open] summary::after {
+    transform: rotate(-450deg); pode ser -90 para apenas meio giro
+} */
+
+
+
+
+
+
+
+
+
+
+
+#item-menu {
+    list-style: none;
+}
+
+.item ul {
+    padding: 0px;
+}
+
+#item-submenu {
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+}
+
+#item-menu-capelas {
+    list-style: none;
+}
+
+#item-submenu-capelas {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+}
+
+
+#item-submenu-sucessao {
+    padding: 0;
+    list-style: none;
+}
+
+
+#item-submenu-sucessao li {
+    margin-bottom: 5px;
+}
+
+#item-submenu-sucessao li a {
+    font-size: 20px;
+    text-align: right;
+    display: block; 
+    color: black;
+}
+
+#item-submenu li a {
+    color: black;
+}
+
+#item-submenu li {
+    margin-bottom: 5px;
+}
+
+#item-menu:hover > #item-submenu{
+    display: block;
+    position: absolute;
+}
+
+
+
+
+
+
+
+.rodape {
+    display: flex;
+    margin: 5px;
+    padding-top: 35px;
+    /*
+    border: 1px solid black;
+    */
+    justify-content: center;
+}
+
+.rodape-completo {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #0039A1;
+    width: 100%;
+}
+
+.rodape-completo > ul {
+    list-style: none;
+    margin: 15px 5px; 
+    padding: 2px;
+    text-align: center;
+}
+
+.redes, .contato {
+    margin-bottom: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+
+.itemRedes a, .itemContato a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.rodape-completo > ul * {
+    margin-top: 5px;
+}
+
+.logo-rodape img {
+    height: 100px;
+    width: auto;
+}
+
+
+
+
+
+/*
+
+@media (max-width: 999px) {
+
+.mobile-menu {
+        display: block;
+    }
+}*/
