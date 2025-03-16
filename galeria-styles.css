@@ -38,8 +38,8 @@
 }
 
 .bloco-fotos img {
-    height: 400px;
     width: auto; 
+    height: 400px;
     max-width: 100%;
     margin: 5px; 
     padding: 2px;
@@ -61,7 +61,5 @@
         height: auto; 
         margin: 18px; 
     }
-    .bloco-fotos h3{
-        display: none;
-    }
+
 }
