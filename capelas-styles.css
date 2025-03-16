@@ -161,7 +161,7 @@
 }
 
 .bloco-grupos p {
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
 }
 
@@ -192,6 +192,12 @@
         height: auto;
     }
 }
+
+/* @media (max-width: 420px){
+    .bloco-fotos img {
+        width: px;
+    }
+}  */
 
 /* @media (max-width: 430px){
     .bloco-grupos {
