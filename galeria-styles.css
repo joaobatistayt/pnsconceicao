@@ -11,8 +11,8 @@
 }
 
 .bloco-fotos-papas img {
-    height: 380px;
-    width: auto; 
+    width: 300px;
+    height: auto; 
     max-width: 100%;
     margin: 5px; 
     padding: 2px;
@@ -20,7 +20,7 @@
 }
 
 .bloco-fotos-parocos img {
-    height: 380px;
+    height: 180px;
     width: auto; 
     max-width: 100%;
     margin: 5px; 
